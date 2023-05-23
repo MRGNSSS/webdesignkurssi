@@ -59,3 +59,48 @@ ul {
     width: 100px;
     height: 35px;
 }
+
+
+ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    text-align: center;
+}
+
+
+li.a {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+li.a a:hover {
+    color: red;
+}
+
+nav li.a {
+    display: inline-block;
+}
+
+ul.b {
+    background-color: lightgray;
+    padding: 20px;
+    padding-bottom: 30%;
+    list-style-type: none;
+    text-decoration: none;
+    float: left;
+}
+
+
+#div2 {
+    position: absolute;
+    left: 300px;
+    width: 300px;
+    height: 1px;
+    border: 0px 
+}
+
